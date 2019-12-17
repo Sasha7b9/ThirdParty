@@ -37,10 +37,11 @@
 extern "C" {
 #endif
 
+
+#pragma warning(push, 0)
+
 #include <stdio.h>
 #include <string.h>
-
-
 
 #if defined(__linux__) || defined(__FreeBSD__)
 
@@ -59,6 +60,8 @@ extern "C" {
 #include <windows.h>
 
 #endif
+
+#pragma warning(pop)
 
 int RS232_OpenComport(int, int, const char *, int);
 int RS232_PollComport(int, unsigned char *, int);
