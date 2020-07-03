@@ -1,6 +1,6 @@
 @echo off
 
-MSBuild.exe ..\..\SDL2\SDL2-2.0.10\generated\SDL2.sln -t:rebuild
+MSBuild.exe ..\..\SDL2\SDL2-2.0.12\generated\SDL2.sln -t:rebuild
 set BUILD_STATUS=%ERRORLEVEL%
 if %BUILD_STATUS%==0 goto Success
 

@@ -49,6 +49,8 @@ def ExtractName(soup):
 
 #-----------------------------------------------------------------------------------
 def GetNameFile(url):
+
+    return 'https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.zip'
     
     # Здесь текст html-файла
     page = requests.get(url).text
