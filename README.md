@@ -1,10 +1,5 @@
-## Установка
-
-Для установки библиотек необходимы следующие дополнительные инструменты:
-- Python3
-- Microsoft Visual Studio 2019
-
-1. Перейдите в каталог scripts.
-2. Запустите на выполнение командный файл promt.bat
-3. Наберите команду "install_python_libs.bat"
-4. Наберите команду "install_libs.bat"
+**promt.bat** - запуск консоли с рабочим окружением
+**make_all.bat** - запуск cmake для debug- и release- конфигураций
+**build_debug.bat** - сборка debug-конфигураций библиотек
+**build_release.bat** - сборка release-конфигураций библиотек
+**build_all.bat** - сборка debug- и release- конфигураций библиотек
