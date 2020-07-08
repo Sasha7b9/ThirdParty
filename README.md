@@ -1,5 +1,5 @@
-**promt.bat** - запуск консоли с рабочим окружением\n
-**make_all.bat** - запуск cmake для debug- и release- конфигураций\n
-**build_debug.bat** - сборка debug-конфигураций библиотек\n
-**build_release.bat** - сборка release-конфигураций библиотек\n
-**build_all.bat** - сборка debug- и release- конфигураций библиотек\n
+**promt.bat** - запуск консоли с рабочим окружением  
+**make_all.bat** - запуск cmake для debug- и release- конфигураций  
+**build_debug.bat** - сборка debug-конфигураций библиотек  
+**build_release.bat** - сборка release-конфигураций библиотек  
+**build_all.bat** - сборка debug- и release- конфигураций библиотек  
